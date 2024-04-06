@@ -11,7 +11,7 @@
 
 <body>
     <div class="h-screen grid place-content-center">
-        <div class="card w-96 bg-base-100 shadow-xl" id="primero" animate__fadeOut>
+        <div class="card w-96 bg-base-100 shadow-xl" id="primero">
             <figure class="px-10 pt-10 max-h-80 rounded-xl">
                 <img src="./images/pop.jpg" alt="Pop" class="rounded-xl max-h-64" />
             </figure>
@@ -19,13 +19,13 @@
                 <h2 class="card-title" id="titulo">Hola mi Amor :3</h2>
                 <p id="descripcion">Espero que te guste mucho tu regalo que hice con mucho amor y también espero que no lo hayas sospechado jajaja</p>
                 <div class="card-actions">
-                    <button class="btn btn-primary" onclick="submit()">Siguiente</button>
+                    <button class="btn btn-primary" id="siguiente">Siguiente</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <script type="module" src="./js/main.js"></script>
 </body>
-<script src="./js/main.js"></script>
 
 </html>
